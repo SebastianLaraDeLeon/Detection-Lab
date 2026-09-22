@@ -27,5 +27,5 @@ drag & drop screenshots here or use imgur and reference them using imgsrc
 Every screenshot should have some text explaining what the screenshot is about.
 
 Example below.
-
-*Ref 1: Network Diagram*
+<img width="782" height="732" alt="image" src="https://github.com/user-attachments/assets/25f442ec-840e-4725-af04-3b1e63dfe2bc" />
+*Ref 1: Network Diagram, this is the setup my i built for my detection lab, it includes an Active Directory Machine, Zeek and Suricata, a Windows machine which will run my Active Directory users, Splunk as a SIEM and a kali linux machine simulating as the attacker, every machine will be forwarding telemetry to splunk using universal splunk forwarder*
