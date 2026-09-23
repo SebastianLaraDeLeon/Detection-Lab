@@ -38,19 +38,19 @@ To validate the lab’s endpoint and network visibility, I conducted an authoriz
 
 A reverse TCP session was established in the isolated lab environment to simulate suspicious command-and-control traffic.
 
-*<img width="631" height="479" alt="image" src="https://github.com/user-attachments/assets/035b2445-7507-4b92-9837-bc7f9e30705d" />
+<img width="631" height="479" alt="image" src="https://github.com/user-attachments/assets/035b2445-7507-4b92-9837-bc7f9e30705d" />
 
 **Network evidence — Zeek**
 
 Zeek captured the matching TCP session in `conn.log` and forwarded the telemetry to Splunk. The event showed successful bidirectional communication between the Kali host on port `4444` and the Windows endpoint.
 
-*<img width="1717" height="446" alt="image" src="https://github.com/user-attachments/assets/b7c2f78e-6fd8-48ae-b7c0-19aeab87dabf" />
+<img width="1717" height="446" alt="image" src="https://github.com/user-attachments/assets/b7c2f78e-6fd8-48ae-b7c0-19aeab87dabf" />
 
 **Endpoint evidence — Sysmon**
 
 Sysmon Event ID 3 recorded `C:\Users\allen\Downloads\invoices.docx.exe` initiating a TCP connection from the Windows endpoint to `192.168.1.250:4444`. This provided endpoint-level evidence of the same activity observed in Zeek.
 
-*<img width="1704" height="322" alt="image" src="https://github.com/user-attachments/assets/485b913f-749e-466f-813b-185e257c1d09" />
+<img width="1704" height="322" alt="image" src="https://github.com/user-attachments/assets/485b913f-749e-466f-813b-185e257c1d09" />
 
 **Result**
 
