@@ -10,13 +10,12 @@ The Detection Lab project aimed to establish a controlled environment for simula
 - Proficiency in analyzing and interpreting network logs.
 - Ability to generate and recognize attack signatures and patterns.
 - Enhanced knowledge of network protocols and security vulnerabilities.
-- Development of critical thinking and problem-solving skills in cybersecurity.
 
 ### Tools Used
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+- Splunk Security Information and Event Management (SIEM) system for log ingestion and analysis.
+- Network analysis tools (Zeek and Suricata) for capturing and examining network traffic.
+- Telemetry generation tools (Atomic-Invoke) to create realistic network traffic and attack scenarios.
 
 ## Lab Architecture
 
