@@ -2,15 +2,15 @@
 
 ## Objective
 
-The Detection Lab project aimed to establish a controlled environment for simulating and detecting cyber attacks. The primary focus was to ingest and analyze logs within a Security Information and Event Management (SIEM) system, generating test telemetry to mimic real-world attack scenarios. This hands-on experience was designed to deepen understanding of network security, attack patterns, and defensive strategies.
+Build and validate a small enterprise Detection Lab using pfSense as the network firewall and gateway, while centralizing Windows endpoint, Active Directory, and network telemetry in Splunk. The lab uses authorized, controlled adversary-simulation activity to verify that suspicious behavior can be detected, investigated, and correlated across Sysmon and Zeek.
 
 ### Skills Learned
 
-- Advanced understanding of SIEM concepts and practical application.
-- Proficiency in analyzing and interpreting network logs.
-- Ability to generate and recognize attack signatures and patterns.
-- Enhanced knowledge of network protocols and security vulnerabilities.
-
+- Built an isolated lab network using pfSense as the firewall and gateway for the 192.168.1.0/24 environment.
+- Configured and validated centralized ingestion of Windows endpoint, domain-controller, and network telemetry in Splunk.
+- Used SPL searches to investigate suspicious network connections and identify relevant IP addresses, ports, connection states, and session duration.
+- Conducted and documented authorized simulated activity in an isolated lab environment to validate visibility across multiple telemetry sources.
+- Correlated Sysmon Event ID 3 endpoint network connections with corresponding Zeek network telemetry in Splunk.
 ### Tools Used
 
 - Splunk Security Information and Event Management (SIEM) system for log ingestion and analysis.
