@@ -15,6 +15,8 @@ Build and validate a small enterprise Detection Lab using pfSense as the network
 
 - Splunk Security Information and Event Management (SIEM) system for log ingestion and analysis.
 - Network analysis tools (Zeek and Suricata) for capturing and examining network traffic.
+- PfSense firewall for network gateway services, traffic routing, and lab network isolation.
+- Sysmon for detailed Windows endpoint telemetry, including process and network connection events.
 - Kali Linux and Metasploit for authorized, controlled test activity.
 
 ## Lab Architecture
