@@ -15,7 +15,7 @@ The Detection Lab project aimed to establish a controlled environment for simula
 
 - Splunk Security Information and Event Management (SIEM) system for log ingestion and analysis.
 - Network analysis tools (Zeek and Suricata) for capturing and examining network traffic.
-- Telemetry generation tools (Atomic-Invoke) to create realistic network traffic and attack scenarios.
+- Kali Linux and Metasploit for authorized, controlled test activity.
 
 ## Lab Architecture
 
